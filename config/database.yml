@@ -17,13 +17,14 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: stockshop
-  password: 
+  username: kxxrbcqckimrdq
+  password: 3aLUe-KD3iOaefwiGieSFk83MY
   pool: 5
+  host: ec2-54-204-26-8.compute-1.amazonaws.com
 
 development:
   <<: *default
-  database: toyapp_development
+  database: dk357fhvaacqb
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
